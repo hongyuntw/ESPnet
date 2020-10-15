@@ -16,6 +16,6 @@ for line in sys.stdin:
         ):
             out_line += " " + blks[i]
             continue
-        for j in seg_txt(blks[i]):
-            out_line += " " + j
+        for j in seg_txt(blks[i].encode()):
+            out_line += " " + j.decode()
     print(out_line)

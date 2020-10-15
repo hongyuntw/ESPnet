@@ -31,7 +31,7 @@ lm_config=conf/lm.yaml
 decode_config=conf/decode.yaml
 
 # rnnlm related
-use_wordlm=true     # false means to train/use a character LM
+use_wordlm=false     # false means to train/use a character LM
 lm_vocabsize=65000  # effective only for word LMs
 lm_resume=          # specify a snapshot file to resume LM training
 lmtag=              # tag for managing LMs
@@ -41,8 +41,8 @@ n_average=10 # use 1 for RNN models
 recog_model=model.acc.best # set a model to be used for decoding: 'model.acc.best' or 'model.loss.best'
 
 # data
-wsj0=/export/corpora5/LDC/LDC93S6B
-wsj1=/export/corpora5/LDC/LDC94S13B
+wsj0=/home/nlp/ASR/WSJ/WSJ0
+wsj1=/home/nlp/ASR/WSJ/WSJ1
 
 # exp tag
 tag="" # tag for managing experiments.

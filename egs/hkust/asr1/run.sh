@@ -33,8 +33,8 @@ recog_model=model.acc.best # set a model to be used for decoding: 'model.acc.bes
 n_average=10
 
 # data
-hkust1=/export/corpora/LDC/LDC2005S15/
-hkust2=/export/corpora/LDC/LDC2005T32/
+hkust1=/home/nlp/ASR/HKUST/LDC2005S15/data
+hkust2=/home/nlp/ASR/HKUST/LDC2005T32/data
 
 # exp tag
 tag="" # tag for managing experiments.
