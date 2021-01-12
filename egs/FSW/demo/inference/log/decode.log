@@ -1,0 +1,24 @@
+# asr_recog.py --config /home/nlp/ASR/espnet/egs/GrandChallenge/conf/conformer_self_mix_decode.yaml --ngpu 0 --backend pytorch --debugmode 1 --verbose 1 --recog-json /home/nlp/ASR/espnet/egs/FSW/demo/inference/dump/data.json --result-label /home/nlp/ASR/espnet/egs/FSW/demo/inference/result.json --model /home/nlp/ASR/espnet/egs/GrandChallenge/exp/train_pytorch_conformer_self_mix_train/results/model.loss.best --api v1 --rnnlm /home/nlp/ASR/espnet/egs/GrandChallenge/exp/train_rnnlm_pytorch_aishell_lm/rnnlm.model.best 
+# Started at Thu Jan  7 21:41:53 CST 2021
+#
+2021-01-07 21:41:54,078 (asr_recog:269) INFO: python path = (None)
+2021-01-07 21:41:54,078 (asr_recog:274) INFO: set random seed = 1
+2021-01-07 21:41:54,078 (asr_recog:285) INFO: backend = pytorch
+2021-01-07 21:41:55,757 (deterministic_utils:26) INFO: torch type check is disabled
+2021-01-07 21:41:55,758 (asr_utils:629) INFO: reading a config file from /home/nlp/ASR/espnet/egs/GrandChallenge/exp/train_pytorch_conformer_self_mix_train/results/model.json
+2021-01-07 21:41:55,758 (asr_init:169) WARNING: reading model parameters from /home/nlp/ASR/espnet/egs/GrandChallenge/exp/train_pytorch_conformer_self_mix_train/results/model.loss.best
+2021-01-07 21:41:56,094 (decoder_self_mix:112) INFO: decoder self-attention layer type = self-attention
+2021-01-07 21:41:56,292 (ctc:36) WARNING: CTC was set to builtin due to PyTorch version.
+2021-01-07 21:41:56,902 (asr:899) INFO:  Total parameter of the model = 52746722
+2021-01-07 21:41:56,903 (asr_utils:629) INFO: reading a config file from /home/nlp/ASR/espnet/egs/GrandChallenge/exp/train_rnnlm_pytorch_aishell_lm/model.json
+2021-01-07 21:41:57,083 (asr:976) INFO: (1/1) decoding inference
+2021-01-07 21:41:57,317 (e2e_asr_transformer_self_mix:471) INFO: input lengths: 71
+2021-01-07 21:41:57,317 (e2e_asr_transformer_self_mix:487) INFO: max output length: 71
+2021-01-07 21:41:57,317 (e2e_asr_transformer_self_mix:488) INFO: min output length: 0
+2021-01-07 21:42:01,470 (e2e_asr_transformer_self_mix:617) INFO: end detected at 10
+2021-01-07 21:42:01,471 (e2e_asr_transformer_self_mix:650) INFO: total log probability: -27.937947750091553
+2021-01-07 21:42:01,471 (e2e_asr_transformer_self_mix:653) INFO: normalized log probability: -4.656324625015259
+2021-01-07 21:42:01,471 (asr_utils:820) INFO: groundtruth: X
+2021-01-07 21:42:01,471 (asr_utils:821) INFO: prediction : 哪病多物<eos>
+# Accounting: time=8 threads=1
+# Ended (code 0) at Thu Jan  7 21:42:01 CST 2021, elapsed time 8 seconds

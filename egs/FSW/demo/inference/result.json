@@ -1,0 +1,23 @@
+{
+    "utts": {
+        "inference": {
+            "output": [
+                {
+                    "name": "target1[1]",
+                    "rec_text": "哪病多物<eos>",
+                    "rec_token": "哪 病 多 物 <eos>",
+                    "rec_tokenid": "601 2515 826 2347 4464",
+                    "score": -27.937947750091553,
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "X"
+        }
+    }
+}

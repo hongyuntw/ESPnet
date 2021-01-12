@@ -1,0 +1,1 @@
+./run.sh  --ngpu 1 --stage 4 --stop-stage 5 --train-config ./conf/conformer_selfmix_train.yaml --lm_config ./conf/aishell_lm.yaml --decode_config ./conf/tuning/decode_pytorch_transformer.yaml 

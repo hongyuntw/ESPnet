@@ -359,6 +359,10 @@ class BeamSearch(torch.nn.Module):
         logging.info("max output length: " + str(maxlen))
         logging.info("min output length: " + str(minlen))
 
+        print("decoder input length: " + str(x.shape[0]))
+        print("max output length: " + str(maxlen))
+        print("min output length: " + str(minlen))
+
         # main loop of prefix search
         running_hyps = self.init_hyp(x)
         ended_hyps = []

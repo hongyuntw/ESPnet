@@ -26,6 +26,7 @@ test_spm.model
 .vscode*
 *.vim
 *.swp
+*.wav
 
 # recipe related
 egs*/*/*/data*
@@ -39,6 +40,18 @@ egs*/*/*/mfcc
 egs*/*/*/stft
 egs*/*/*/tensorboard
 egs*/*/*/wav*
+
+egs*/*/data*
+egs*/*/db
+egs*/*/downloads
+egs*/*/dump
+egs*/*/enhan
+egs*/*/exp
+egs*/*/fbank
+egs*/*/mfcc
+egs*/*/stft
+egs*/*/tensorboard
+egs*/*/wav*
 
 # tools related
 tools/bin

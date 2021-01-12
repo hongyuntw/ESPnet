@@ -1,0 +1,29 @@
+{
+    "utts": {
+        "inference": {
+            "input": [
+                {
+                    "feat": "/home/nlp/ASR/espnet/egs/FSW/demo/inference/dump/feats.1.ark:10",
+                    "name": "input1",
+                    "shape": [
+                        288,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "X"
+        }
+    }
+}

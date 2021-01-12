@@ -1,0 +1,2 @@
+compute-cmvn-stats --spk2utt=ark:single_wav/spk2utt scp:single_wav/feats.scp ark,scp:/home/nlp/ASR/espnet/egs/FSW/single_wav/data/cmvn_single_wav.ark,/home/nlp/ASR/espnet/egs/FSW/single_wav/data/cmvn_single_wav.scp 
+LOG (compute-cmvn-stats[5.5.776~1-fcc6a3]:main():compute-cmvn-stats.cc:171) Done accumulating CMVN stats for 1 utterances; 0 had errors.

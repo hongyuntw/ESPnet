@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 ./run.sh  --ngpu 1 --stage 5 --stop-stage 5 --train-config ./conf/conformer_self_mix_train.yaml --use_wordlm false --lm_config ./conf/aishell_lm.yaml --decode_config ./conf/conformer_self_mix_decode.yaml
